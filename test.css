@@ -7,3 +7,25 @@
     cursor: pointer;
     
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 1px solid gray;
+    background-color: antiquewhite;
+
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 110px;
+    height: 110px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
